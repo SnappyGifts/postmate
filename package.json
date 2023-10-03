@@ -1,10 +1,11 @@
 {
-  "name": "postmate",
-  "version": "1.6.0",
+  "name": "@snappygifts/postmate",
+  "version": "1.6.2",
   "description": "A powerful, simple, promise-based postMessage library",
   "main": "build/postmate.js",
   "module": "build/postmate.es.js",
   "unpkg": "build/postmate.min.js",
+  "types": "build/postmate.d.ts",
   "files": [
     "build",
     "src"
@@ -39,6 +40,7 @@
     "rollup-plugin-uglify": "^6.0.0",
     "rsvp": "^4.8.1",
     "serve-static": "^1.11.1",
+    "typescript": "^5.2.2",
     "uglify-js": "^3.6.3",
     "vinyl-source-stream": "^2.0.0"
   },
